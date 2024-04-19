@@ -178,9 +178,13 @@ p {
     padding-top: 96px;
     /* padding-bottom: 120px; */
     padding-bottom: 96px;
-    /* сомнительная хуета, которая работает, ниже */
+    /* сомнительная хуета, но она работает, ниже
     padding-left: 13px;
-    padding-right: 13px;
+    padding-right: 13px; */
+}
+
+.team > .container {
+    width: 296px;
 }
 
 .team-title {
