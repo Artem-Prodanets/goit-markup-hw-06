@@ -52,8 +52,9 @@ p {
 }
 
 .background-container {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-background.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)),
+    url(../images/hero-background-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -346,7 +347,7 @@ p {
 
 
 
-/* ====================== MODAL ================== */
+/*  ====================== MODAL ================== */
 
 
 
@@ -362,8 +363,12 @@ p {
     padding-bottom: 112px;
 }
 
-.background-container {}
-
+.background-container {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background-tab.jpg);
+    max-width: 768px;
+}
 
 
 .hero-title {
@@ -416,6 +421,13 @@ p {
     padding-top: 188px;
     padding-bottom: 188px;
     }
+
+    .background-container {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background.jpg);
+    max-width: 1440px;
+}
 
 .hero-title {
     margin-bottom: 48px;
