@@ -78,7 +78,7 @@ p {
     /* flex-grow: 1; вместо этого почему-то 
     должны юзать  правило ниже: */
     /* address {
-            margin-left: auto; */
+    margin-left: auto; */
     align-items: center;
 }
 
